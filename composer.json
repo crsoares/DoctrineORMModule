@@ -33,7 +33,6 @@
     ],
     "require":           {
         "php":                               "^5.5 || ^7.0",
-        "doctrine/doctrine-module":          "~1.0",
         "doctrine/orm":                      ">=2.5,<2.7",
         "doctrine/dbal":                     ">=2.4,<2.7",
         "zendframework/zend-stdlib":         "^3.0",
@@ -42,6 +41,7 @@
         "symfony/console":                   "~2.5|~3.0"
     },
     "require-dev":       {
+        "crsoares/doctrine-module":          "dev-master",
         "doctrine/data-fixtures":             "1.0.*",
         "zendframework/zend-developer-tools": "*",
         "doctrine/migrations":                "1.0.*@dev",
